@@ -1,27 +1,35 @@
 {
-    "workbench.colorTheme": "GitHub Dark",
     "workbench.iconTheme": "symbols",    
-    "editor.fontSize": 13.5,
+    "editor.fontSize": 11.7,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.lineHeight": 1.4,
+    "editor.renderLineHighlight": "line",
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 0.3,
     "workbench.editor.labelFormat": "short",
-    "explorer.compactFolders": false,
-    "breadcrumbs.enabled": false,
-    "workbench.activityBar.location": "hidden",
-    "editor.scrollbar.vertical": "hidden",
-    "workbench.statusBar.visible": false,  
-    "apc.electron": {
-        "titleBarStyle": "hidden"
-    },
-    "apc.stylesheet": {
-        ".title-label > h2": "display: none",        
-        ".nosidebar .inline-tabs-placeholder": "width: 75px",                
-        ".monaco-list-row": "border-radius: 4px;",
-        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
-    },
-    "apc.listRow": {
-        "height": 24
-    },
+    "explorer.compactFolders": false,    
+    "breadcrumbs.enabled": false,    
+    "editor.scrollbar.vertical": "auto",
+    "editor.scrollbar.horizontal": "hidden",
+    "workbench.statusBar.visible": false,      
+    "workbench.activityBar.location": "default",
+    "editor.minimap.enabled": false,    
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
     "window.menuBarVisibility": "compact",
-    "symbols.hidesExplorerArrows": false  
+    "symbols.hidesExplorerArrows": false,
+    "editor.stickyScroll.enabled": false,
+    "window.customTitleBarVisibility": "auto",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/__pycache__": true,
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "python.createEnvironment.trigger": "off",    
+    "workbench.colorTheme": "OM Theme (Night Owl Italic)"
 }
