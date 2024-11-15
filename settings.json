@@ -31,6 +31,5 @@
   "python.createEnvironment.trigger": "off",    
   "workbench.colorTheme": "OM Theme (Night Owl Italic)",
   "database-client.autoSync": true,
-  "window.menuBarVisibility": "toggle",
-  "workbench.activityBar.location": "hidden"
+  "window.menuBarVisibility": "toggle"
 }
